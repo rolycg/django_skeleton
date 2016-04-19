@@ -141,6 +141,8 @@ THUMBNAIL_KVSTORE = 'sorl.thumbnail.kvstores.cached_db_kvstore.KVStore'
 
 THUMBNAIL_DEBUG = False
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
 # REDIS_HOST = 'localhost'
 # REDIS_PORT = 6379
 # REDIS_DB = 1
